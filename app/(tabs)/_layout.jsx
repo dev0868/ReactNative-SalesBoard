@@ -1,11 +1,12 @@
+import { Ionicons } from "@expo/vector-icons";
 import { Tabs } from "expo-router";
 import React from "react";
 import { View } from "react-native";
-import { Ionicons } from "@expo/vector-icons";
-import "./global.css"
+import "./global.css";
 
 export default function TabLayout() {
   return (
+    // test purpose
     <Tabs
       screenOptions={{
         tabBarActiveTintColor: "#7c3aed",
